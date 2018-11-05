@@ -1,0 +1,40 @@
+div,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bjb{
+    background-color: #282f3e;
+    color: #fff;
+    float: left;
+    width: 100%;
+    min-width: 1000px;
+    position: relative;
+    z-index: 8888;
+    padding: 20px 0 40px 0;
+    overflow: hidden;
+}
+.wrap{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.f_link{
+    display: inline;
+    float: left;
+    width: 270px;
+    height: 52px;
+    margin: 30px 0 0 12px;
+}
+.f_txt{
+    float: left;
+    padding: 14px 0 0 10px;
+    color: white;
+    font-size: 12px;
+}
+.f_txt a{
+    color: white;
+}
+.f_txt a:hover{
+    color:#a5a5a5;
+}

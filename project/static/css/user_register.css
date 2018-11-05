@@ -1,0 +1,160 @@
+.header{
+    background-image: linear-gradient(to bottom,#EBEBEB 0%,#FAFAFA 100%);
+    display: flex;
+}
+.top{
+    margin-top: 20px;
+}
+.topi{
+    margin-left:160px;
+}
+.tnav{
+    width: 500px;
+}
+.topl{
+    width: 180px;
+}
+.topl>a{
+    color: #6b6b6b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.topl > a:hover{
+    color: #5bbde3;
+}
+.header div ul li a{
+    color: #3c3c3c;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+    padding-top: 22px;
+    font-weight: 500;
+}
+#a1{
+    padding: 18px 34px ;
+    padding-top: 22px;
+}
+.header div ul li a:hover{
+    border-left: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+    color: #003e83;
+    background-image: linear-gradient(to bottom,#F2F2F2 0%,#FEFEFE 50%,#FFFFFF 100%);
+}
+#a2{
+    background-image: linear-gradient(to bottom,#F2F2F2 0%,#FEFEFE 50%,#FFFFFF 100%);
+}
+.login{
+    display: inline-block;
+    width: 34px;
+    height: 31px;
+    vertical-align: middle;
+    background-image: url("img/icons.png");
+    background-position: 2px -475px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.register{
+    display: inline-block;
+    width: 34px;
+    height: 31px;
+    vertical-align: middle;
+    background-image: url("img/icons.png");
+    background-position: 2px -113px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.zb{
+    background: url("img/sign_bg.jpg") no-repeat scroll #fefdfc;
+    background-position:-320PX 0 ;
+    width: 100%;
+    float: left;
+    height: 900px;
+}
+.zc{
+    margin: 150px auto;
+    width: 700px;
+    height: 650px;
+    border: 1px solid #9EC6DF;
+}
+.zc table{
+    table-layout: fixed;
+    margin: 0 auto
+;
+}
+
+.zc table td{
+    height: 50px;
+}
+#td1{
+    color: #fc670e;
+    font-size: 12px;
+    text-align: center;
+}
+#td2{
+    color: #fc670e;
+    font-size: 12px;
+    text-align: left;
+}
+#td3{
+    font-weight: bolder;
+    font-size: 14px;
+    color: #292929;
+}
+#td4{
+    font-size: 12px;
+}
+#read{
+    position: relative;
+    top: 4px;
+}
+#sub{
+    padding: 3px 25px;
+    color: white;
+    background-image: linear-gradient(to bottom,#1582BB 0%,#71C4EC 100%);
+    cursor: pointer;
+}
+.zc table td:first-child{
+    text-align: right;
+    color: #292929;
+    font-size: 12px;
+}
+.zc td span{
+    display: inline-block;
+    width: 250px;
+    font-size: 13px;
+}
+#fd1{
+    position: relative;
+    z-index: 999999;
+    width: 100%;
+    height: 200px;
+    padding: 20px 0 100px;
+    background-color: #232525;
+    float: left;
+    margin-top: 0px;
+}
+#fd1{
+    color: #fefefe;
+    font-size: 12px;
+}
+#fd2{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+#fd3{
+    position: absolute;
+    left: 500px;
+}
+#fd3 p{
+    margin: 0px;
+    margin-top: 6px;
+}
+#fd3  a{
+    color: white;
+}
+#fd3 .fp{
+    color: #A4B6C6;
+}

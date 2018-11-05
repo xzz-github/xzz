@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ *
+ * p_base.css
+ *
+ * @authors leiTingGame-Tp
+ * @date    2016-01-22 
+ * @version v2016
+ *
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+lengend,
+button,
+input,
+textarea,
+th,
+td {margin: 0; padding: 0;}
+body,
+button,
+input,
+select,
+textarea { font: 14px/1 'Microsoft YaHei';}
+address,
+cite,
+dfn,
+em,
+i,
+var { font-style: normal; }
+small { font-size: 12px;}
+ul,ol { list-style: none;}
+a { text-decoration: none; color: #000; outline: none;}
+a:hover { text-decoration: none;}
+abbr[title],
+acronym[title] { border-bottom: 1px dotted; cursor: help;}
+q:before,
+q:after { content: '';}
+legend { color: #000;}
+fieldset,
+img { border: none;}
+button,
+input,
+select,
+textarea { font-size: 100%;}
+input { outline: none; border: 0;}
+table { border-collapse: collapse; border-spacing: 0;}
+hr { border: none; height: 1px;}
+
+.clearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;} 
+
+.fl{ float:left;}
+.fr{ float:right;}
+.pr { position:relative;}
+.pa { position:absolute;}
+.hid{ display: none !important;}
+
+/*footer.js*/
+.footer { float: left; width: 100%; min-width: 1000px; position: relative; z-index: 8888; padding: 20px 0 40px 0; overflow: hidden; background-color: #000000;}
+.footer .wrap { margin-left: auto; margin-right: auto; position: relative; width: 1000px; margin: 0 auto;}
+.footer .wrap .ti { text-indent: -999em;}
+.footer .f_link { display: inline; float: left; width: 270px; height: 52px; margin: 30px 0 0 12px; background: url(../images/f_logo.png) no-repeat 0 0;}
+.footer .f_link a { float: left; height: 52px;}
+.footer .f_link a.jbt_link { width: 125px;}
+.footer .f_link a.ltyx_link { width: 140px;}
+.footer .f_txt { float: left; padding: 14px 0 0 10px; color: #a5a5a5;}
+.footer .f_txt p { height: 24px; font: 400 12px/2em '\5FAE\8F6F\96C5\9ED1',tahoma,sans-serif;}
+.footer .f_txt p a { color: #7b7f82; font: 400 12px/2em '\5FAE\8F6F\96C5\9ED1',tahoma,sans-serif; text-decoration: none;}
+.footer .f_txt p a:hover { color: #7b7f82; text-decoration: underline;}
+.footer .f_txt p a img { vertical-align: middle; }
+.footer .f_txt p a:hover img { text-decoration: none; }
+.footer .f_txt p span { font-family: Arial; }
+
+/*白底版权*/
+.footer_white{ background: #fff; color: #000;}
+.footer_white .f_link{ background: url(../images/f_logo_white.png) no-repeat 0 0;}
+.footer_white .f_txt{ color: #000;}
+.footer_white .f_txt p a{ color: #000;} 

@@ -1,0 +1,136 @@
+.nav_top{
+    background-color: rgba(1,1,1,.4);
+    border-bottom: 1px solid #463d3c;
+    z-index: 30;
+}
+.nav{
+    margin: 0 auto;
+    width: 1200px;
+    height: 79px;
+}
+.nav_img{
+    margin: auto 0;
+}
+.nav ul{
+    line-height: 79px;
+}
+.nav li:first-child{
+    margin-left: 25px;
+}
+.nav ul li a{
+    font-size: 14px;
+    color: #a8a8a9;
+    display: block;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+.language{
+    width: 66px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #878a8c;
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px 10px 0 250px;
+}
+.language1{
+    width: 66px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 110px;
+}
+.language1 ul{
+    height: 230px;
+    border-left:1px solid #555;
+}
+.language a{
+    font-size: 14px;
+    color: #a8a8a9;
+    text-decoration: none;
+}
+.language a:hover{
+    color: white;
+}
+.nav_more{
+    position: absolute;
+    left: 0;
+    top: -350px;
+    right: 0;
+    z-index: 29;
+    background: rgba(0,0,0,.7);
+    opacity:0;
+}
+#nav_more{
+    transition: all 0.2s linear;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.nav_more .center .cont .ul_com ul li a{
+    color: #e0e0e0;
+    font-size:14px;
+}
+.nav_more .cont{
+    padding: 80px 0 0 149px;
+}
+.nav_more .cont .ul_com{
+    float: left;
+    width: 106px;
+    margin-right: -13px;
+    padding-top: 1px;
+    padding-bottom: 26px;
+}
+.nav_more .cont .ul_com1{
+    margin-left: 14px;
+}
+.nav_more .cont .ul_com2{
+    margin-left: 12px;
+}
+.nav_more .cont .ul_com3{
+    margin-left: 33px;
+}
+
+.nav_more .cont .ul_com ul{
+    padding-left: 0;
+    list-style: none;
+}
+.nav_more .cont .ul_com ul li{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.nav_more .cont .ul_com ul li a:hover{
+    text-decoration: none;
+    color:white;
+}
+.nav_more .cont .ul_com3 ul li{
+    text-align: left;
+    width: 120px;
+}
+.nav_more .cont .ul_com3 a .new{
+    display: inline-block;
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+    background:url(../img/icon1.png) no-repeat;
+    background-position: -15px 0;
+}
+.nav_more .cont .ul_com3 a .hot{
+    display: inline-block;
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+    background:url(../img/icon1.png) no-repeat;
+    background-position: 0 0;
+}
+.top_nav{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
