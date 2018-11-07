@@ -73,10 +73,7 @@ export default {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: rgb(198, 198, 198);
-}
-.header-title > ul > li:first-child a {
-  color: rgb(255, 255, 255);
+  color:rgba(255,255,255,.8)
 }
 .header-title > ul > li:hover > a {
   color: rgb(255, 255, 255);

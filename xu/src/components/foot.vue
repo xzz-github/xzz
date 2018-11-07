@@ -68,7 +68,7 @@ export default {
   margin: 40px 0;
 }
 .foot-text .foot-text-a {
-  width: 373px;
+  width: 275px;
   margin: auto;
 }
 .foot-text ul {
@@ -76,7 +76,7 @@ export default {
   display: flex;
 }
 .foot-text ul li {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .foot-text ul li a {
   text-decoration: none;
