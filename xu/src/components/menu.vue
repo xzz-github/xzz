@@ -11,7 +11,7 @@
            <div class="menu-2-btn">
                <div class="m-2-b">
                   <ul>
-                    <li v-for="(list,index) in menus" :key="index" @click="ors(index)"><span>{{list.text}}</span></li>
+                    <li v-for="(list,index) in menus" :key="index" @click="ors(index)" ><span :class="{green:changeC==list.num}">{{list.text}}</span></li>
                   </ul>
                </div>
                <div class="m-2-b-i1" :class="{change:changeC==0}">
@@ -80,16 +80,16 @@ export default {
       texts: ["菜单", "menu"],
       menus: [
         {
-          text: "披萨"
+          text: "披萨",num:'0'
         },
         {
-          text: "小吃"
+          text: "小吃",num:'1'
         },
         {
-          text: "饮料"
+          text: "饮料",num:'2'
         },
         {
-          text: "甜品"
+          text: "甜品",num:'3'
         }
       ],
       menu1:[
@@ -120,6 +120,12 @@ export default {
     ors(index){
       this.changeC=index;
     }
+  },
+  created(){
+    var ch=this.$route.params.id;
+    this.changeC=ch;
+    console.log(this.changeC);
+    // console.log(this.$route.query.changeC)
   }
 };
 </script>
@@ -173,6 +179,11 @@ ul {
   cursor: pointer;
 }
 .menu-2 .m-2-b ul li span:hover {
+  background-color: #62b92e;
+  color: white;
+  border-color: #62b92e;
+}
+.green{
   background-color: #62b92e;
   color: white;
   border-color: #62b92e;
