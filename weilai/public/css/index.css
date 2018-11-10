@@ -1,0 +1,75 @@
+.l50pert240{
+    left: 50%;
+    top: 240px;
+    margin-left: -172px;
+}
+h1{
+    letter-spacing: 10px
+}
+.l50pert320{
+    left: 50%;
+    top: 320px;
+    margin-left: -328px;
+}
+.l50pert450{
+    left: 50%;
+    top: 450px;
+    margin-left: -200px;
+}
+.w400{
+    width: 400px;
+}
+.p10_30{
+    padding: 10px 50px;
+}
+.bd2sw{
+    border: 2px solid white;
+}
+.cwbgnone{
+    color: white;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: all .3s linear;
+}
+.cwbgnone:hover{
+    color: black;
+    background: #fff;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.h571{
+    height: 571px;
+}
+.bgusercenter{
+    background-image: url(../img/Untitled-1.jpg);
+    background-size: cover;
+}
+.bgpowercenter{
+    background-image: url(../img/nioday-homepage-diptych-niopower-1920x1191-v1.jpg);
+    background-size: cover;
+}
+.l50perml_239t150{
+    left: 50%;
+    margin-left: -239px;
+    top: 150px;
+}
+.h872{
+    height: 872px;
+}
+.w70h10{
+    width: 70px;
+    height: 10px;
+}
+.l50perml_35b30{
+    left: 50%;
+    margin-left: -35px;
+    bottom: 30px;
+}
+.bgblue{
+    background: dodgerblue !important;
+}
+.h872{
+    height: 872px;
+}

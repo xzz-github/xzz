@@ -1,0 +1,275 @@
+.l50pert240{
+    left: 50%;
+    top: 200px;
+    margin-left: -172px;
+}
+.w574mt40{
+    width: 574px;
+    margin: 40px auto;
+}
+.w701{
+    width: 701px;
+}
+.w350h132{
+    width: 350px;
+    height: 132px;
+}
+.bdright{
+    border-right: 1px solid #ddd;
+}
+.w165{
+    width: 180px;
+}
+.cwbgnone{
+    color: black;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: all .3s linear;
+}
+.cwbgnone:hover{
+    color: white;
+    background: #000;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.h100{
+    height: 120px;
+}
+.w550h190{
+    width: 550px;
+    height: 190px;
+}
+.w550{
+    width: 550px;
+}
+.p5_20{
+    padding: 13px 70px;
+}
+.btngreen{
+    background: #00bebe;
+    border-radius:25px ;
+    border: 0;
+}
+.w210h50{
+    width: 210px;
+    height: 50px;
+}
+.lh50{
+    line-height: 50px;
+}
+.btngreen:hover{
+    background: #00263c;
+}
+.h1070{
+    height: 1070px;
+}
+.bgimg0{
+    background-image: url(../img/es8-performance_0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w514h386{
+    width: 514px;
+    height: 386px;
+}
+.t30r40{
+    top: 120px;
+    right: 180px;
+}
+.w360{
+    width: 360px;
+}
+.bgimg1{
+    background-image: url(../img/Group_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h924{
+    height: 924px;
+}
+.w685h90{
+    width: 685px;
+    height: 90px;
+}
+.p20{
+    padding: 20px;
+}
+.h267{
+    height: 267px;
+}
+div.p20>div.w20per>img:nth-child(1){
+    transition:transform .5s linear;
+}
+.bghoverbig:hover img:nth-child(1){
+    transform: scale(1.03);
+}
+.bg000_a01{
+    background: rgba(0,0,0,.1);
+}
+.bghoverbig:hover div:nth-child(2){
+    display: block;
+}
+.bgimg2{
+    background-image: url(../img/pilot-desktop_1920x1080@2x_0_0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w285h52{
+    width: 285px;
+    height: 52px;
+}
+.m100auto{
+    margin: 100px auto 0;
+}
+.w574h52{
+    width: 574px;
+    height: 52px;
+}
+.bgimg3{
+    background-image: url(../img/nio-nomi_1920x1080@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w183h42{
+    width: 183px;
+    height: 42px;
+}
+.w650{
+    width: 650px;
+}
+.bgimg4{
+    background-image: url(../img/nio-power-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w432h67{
+    width: 432px;
+    height: 67px;
+}
+.m150auto{
+    margin: 150px auto 0;
+}
+.btnblack{
+    color: black;
+    border: 2px solid black;
+    border-radius: 27px;
+    transition: all .3s linear;
+}
+.btnblack:hover{
+    color: white;
+    background: #000;
+}
+.m50_0{
+    margin: 50px 0;
+}
+.h1068{
+    height: 1068px;
+}
+
+
+
+@keyframes change4 {
+    from{
+        transform: translateX(500%);
+        opacity:0;
+    }
+    85%{
+        transform: translateX(-50px);
+        opacity:.85;
+    }
+    95%{
+        transform: translateX(20px);
+        opacity:.95;
+    }
+    to{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+.change4{
+    animation: change4 1s linear;
+}
+@keyframes change5 {
+    from{
+        transform: translateX(400%);
+        opacity:0;
+    }
+    85%{
+        transform: translateX(-40px);
+        opacity:.85;
+    }
+    95%{
+        transform: translateX(16px);
+        opacity:.95;
+    }
+    to{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+.change5{
+    animation: change5 1s linear .5s;
+}@keyframes change6 {
+     from{
+         transform: translateX(300%);
+         opacity:0;
+     }
+     85%{
+         transform: translateX(-30px);
+         opacity:.85;
+     }
+     95%{
+         transform: translateX(12px);
+         opacity:.95;
+     }
+     to{
+         transform: translateX(0);
+         opacity:1;
+     }
+ }
+.change6{
+    animation: change6 1s linear 1s;
+}@keyframes change7{
+     from{
+         transform: translateX(200%);
+         opacity:0;
+     }
+     85%{
+         transform: translateX(-20px);
+         opacity:.85;
+     }
+     95%{
+         transform: translateX(8px);
+         opacity:.95;
+     }
+     to{
+         transform: translateX(0);
+         opacity:1;
+     }
+ }
+.change7{
+    animation: change7 1s linear 1.5s;
+}@keyframes change8 {
+     from{
+         transform: translateX(100%);
+         opacity:0;
+     }
+     85%{
+         transform: translateX(-10px);
+         opacity:.85;
+     }
+     95%{
+         transform: translateX(4px);
+         opacity:.95;
+     }
+     to{
+         transform: translateX(0);
+         opacity:1;
+     }
+ }
+.change8{
+    animation: change8 1s linear 2s;
+}
+

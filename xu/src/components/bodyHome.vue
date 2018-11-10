@@ -565,9 +565,9 @@ export default {
       }
     }
   },
-  // mounted: function() {
-  //  setInterval(this.btnImg, 4000);
-  // }
+  mounted: function() {
+   setInterval(this.btnImg, 4000);
+  }
 };
 </script>
 

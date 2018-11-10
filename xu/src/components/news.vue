@@ -10,7 +10,7 @@
         <div class="new-2">
             <div class="new-2-a">
                 <ul>
-                    <li v-for="(item,a) in news" :key="a" @mouseenter="me()" @mouseleaver="ml()" ref="tx">
+                    <li v-for="(item,a) in news" :key="a">
                         <div class="n-2-a">
                             <div class="n-2-t">
                                 <p class="p1">{{item.p1}}</p>
@@ -77,17 +77,6 @@ export default {
     };
   },
   methods:{
-      me(){
-        //   console.log(this.$refs[0])
-        console.log(this.$refs.a.style.length);
-        //   this.$refs.tx.style.border-left="1px solid #888";
-          
-      },
-      ml(){
-        //   this.$refs.tx.style.height=0;     
-        //   this.$refs.tx.style.border-left="1px solid #888";
-               
-      }
   }
 };
 </script>
@@ -160,18 +149,20 @@ ul {
 }
 .dl{
     transition: all .8s;
-    border: 1px solid black;
 }
 .new-2 .new-2-a li:hover .dl{
     transform: translateX(20px);
 }
 .new-2 .new-2-a li .kuang{
-    height:0px;
+    height:90%;
+    border-left: rgba(0,0,0,0);
     transition: all 1s;
 }
-/* .new-2 .new-2-a li:hover .kuang{
-    height: 90% !important;
+.new-2 .new-2-a li:hover .kuang{
+    /* height: 90% !important; */
+    /* opacity: 1; */
     border-left: 1px solid #888;
-} */
+}
 
 </style>
+
