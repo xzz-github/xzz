@@ -122,7 +122,7 @@ function lunbo(){
     }
 }
 var app=setInterval(lunbo,3000);
-$("#allimg>li").mouseenter(function(){
+function fi(){
     var i=this.className;
     var divs=$("#imgs .move");
     for(var div of divs){
@@ -135,5 +135,6 @@ $("#allimg>li").mouseenter(function(){
     $($(divs[i]).children()[1]).addClass("change1");
     $($(divs[i]).children()[2]).addClass("change2");
     $($(divs[i]).children()[3]).addClass("change3");
-})
+}
+$("#allimg>li").mouseenter(fi)
 

@@ -2,7 +2,6 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fi
     margin: 0;
     padding: 0;
 }
-
 .layout{
     position: relative;
     overflow: hidden;
@@ -195,13 +194,4 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fi
 }
 #diploma_left{
     background: #a78953;
-}
-.scroll-i{
-    transform: translateY(150px);
-    opacity: 0;
-}
-.scroll-ball{
-    transform: translateY(0px);
-    opacity: 1;
-    transition: all 0.5s;
 }

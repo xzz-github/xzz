@@ -129,7 +129,7 @@
         </div>
     </div>
 </footer>
-    <script src="common.js"></script>
+    <script src="./js/common.js"></script>
     <script>
         function funame(){
             $("showUname").innerHTML="账号至少3个字符，最多32个字符";
@@ -187,7 +187,7 @@
                         var res=xhr.responseText;
                         $("showPhone").innerHTML=res;
                     }
-                }
+                };
                 var phone=$('phone').value;
                 xhr.open("get","/user/checkPhone?phone="+phone,true);
                 xhr.send(null);
@@ -223,24 +223,24 @@
                 $("showIdcard").style.backgroundColor="#FFF2E9";
             }
         }
-//        function register(){
-//                var xhr=createXhr();
-//                xhr.onreadystatechange=function(){
-//                    if(xhr.readyState==4&&xhr.status==200){
-//                        var res=xhr.responseText;
-//                        alert(res);
-//                    }
-//                }
-//                xhr.open("post","/user/register",true);
-//                xhr.setRequestHeader("content-Type","application/x-www-form-urlencoded");
-//                var uname=$('uname').value;
-//                var upwd=$('upwd').value;
-//                var rname=$('rname').value;
-//                var phone=$('phone').value;
-//                var idcard=$('idcard').value;
-//                var url="uname="+uname+"&upwd="+upwd+"&rname="+rname+"&phone="+phone+"&idcard="+idcard;
-//                xhr.send(url);
-//        }
+        function register(){
+                var xhr=createXhr();
+                xhr.onreadystatechange=function(){
+                    if(xhr.readyState==4&&xhr.status==200){
+                        var res=xhr.responseText;
+                        alert(res);
+                    }
+                }
+                xhr.open("post","/user/register",true);
+                xhr.setRequestHeader("content-Type","application/x-www-form-urlencoded");
+                var uname=$('uname').value;
+                var upwd=$('upwd').value;
+                var rname=$('rname').value;
+                var phone=$('phone').value;
+                var idcard=$('idcard').value;
+                var url="uname="+uname+"&upwd="+upwd+"&rname="+rname+"&phone="+phone+"&idcard="+idcard;
+                xhr.send(url);
+        }
     </script>
 </body>
 </html>
