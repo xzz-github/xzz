@@ -1,0 +1,155 @@
+.h1070{
+    height: 1070px;
+}
+.bgimg1{
+    background-image: url(../img/EP9_Hero_v2_3840.jpg);
+    background-size: cover;
+}
+.w432{
+    width: 432px;
+}
+.m80auto{
+    margin: 80px auto 0;
+}
+.m40auto{
+    margin: 40px auto 0;
+}
+.ls8{
+    letter-spacing: 8px;
+}
+.c00bebe{
+    color: #00bebe;
+}
+.w1171h600{
+    width: 1171px;
+    height: 600px;
+}
+.w1171h534{
+    width: 1171px;
+    height: 534px;
+}
+.m40auto{
+    margin: 40px auto 0;
+}
+.w292h534{
+    width: 292.5px;
+    height: 534px;
+}
+.w292h267{
+    width: 292.5px;
+    height: 267px;
+}
+.fz82{
+    font-size: 82px;
+}
+.h800{
+    height: 800px;
+}
+.bgimg2{
+    background-image: url(../img/supercar-3-d@2x.jpg);
+    background-size: cover;
+}
+.w800h300{
+    width: 800px;
+    height: 300px;
+}
+.t200l150{
+    top: 300px;
+    left: 250px;
+}
+.video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.bgimg3{
+    background-image: url(../img/EP9_Experience_5_3840.jpg);
+}
+.bgimg4{
+    background-image: url(../img/EP9_Experience_4_3840.jpg);
+}
+.bgimg5{
+    background-image: url(../img/EP9_Experience_2_3840.jpg);
+}
+.bgimg6{
+    background-image: url(../img/EP9_Experience_1_3840.jpg);
+}
+.bgimg7{
+    background-image: url(../img/EP9_Experience_3_3840.jpg);
+}
+.t400{
+    top: 400px;
+}
+.l50perml_135{
+    left: 50%;
+    margin-left: -135px;
+}
+.t950{
+    top: 900px;
+}
+.t900{
+    top: 850px;
+}
+.d1img{
+    left: 50%;
+    transform:translateX(-50%);
+    top: 200px;
+}
+@keyframes change4 {
+    from{
+        opacity: 0;
+        transform: translateY(-40px) translateX(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) translateX(-50%);
+    }
+}
+.change4{
+    animation: change4 1s linear;
+}
+@keyframes change5 {
+    from{
+        opacity: 1;
+        transform:translateX(-50%) translateY(0) ;
+    }
+    to{
+        opacity: 0;
+        transform:translateX(-50%) translateY(-40px) ;
+    }
+}
+.change5{
+    animation: change5 1s linear;
+}
+.h100per{
+    height: 100%;
+}
+.m200auto{
+    margin: 200px auto 0;
+}
+.ty100per{
+    transform: translateY(100%);
+}
+.ty_100per{
+    transform: translateY(-100%);
+}
+.lcenter{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.t400{
+    top: 400px;
+}
+.scale0{
+    transform: scale(0);
+}
+.w1903{
+    width: 100%;
+}

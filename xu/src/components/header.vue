@@ -9,12 +9,12 @@
                     <li><router-link to="/">首页</router-link></li>
                     <li><router-link to="/about">关于我们</router-link></li>
                     <li class="li-sub">
-                        <router-link to="/menu">菜谱 v</router-link>
+                        <router-link to="/menu/0">菜谱 v</router-link>
                         <ul>
-                            <li><a href="#"><span>比萨</span></a></li>
-                            <li><a href="#"><span>小吃</span></a></li>
-                            <li><a href="#"><span>饮料</span></a></li>
-                            <li><a href="#"><span>甜品</span></a></li>
+                            <li><router-link :to="{path:'/menu/0'}"><span>比萨</span></router-link></li>
+                            <li><router-link :to="{path:'/menu/1'}"><span>小吃</span></router-link></li>
+                            <li><router-link :to="{path:'/menu/2'}"><span>饮料</span></router-link></li>
+                            <li><router-link :to="{path:'/menu/3'}"><span>甜品</span></router-link></li>
                         </ul>   
                     </li>
                     <li><router-link to="/news">新闻与事件</router-link></li>
@@ -73,10 +73,7 @@ export default {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: rgb(198, 198, 198);
-}
-.header-title > ul > li:first-child a {
-  color: rgb(255, 255, 255);
+  color:rgba(255,255,255,.8)
 }
 .header-title > ul > li:hover > a {
   color: rgb(255, 255, 255);
