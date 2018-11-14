@@ -1,0 +1,39 @@
+<!--pages/profile/profile.wxml-->
+<!--头像-->
+<view class='avatar'>
+  <image src='/image/avatar.png'></image>
+</view>
+<!--灰色分隔块-->
+<view class='divider'></view>
+<!--个人资料-->
+<view class='cell'>
+  <navigator class='cell-item arrow' url='/pages/address/address'>
+    <text>地址管理</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>我的优惠券</text>
+  </navigator>
+</view>
+<!--常见问题-->
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class='cell-item arrow'>
+    <text>我的订单</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>使用条款</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>使用帮助</text>
+  </navigator>
+  <navigator class='cell-item arrow'>
+    <text>关于我们</text>
+  </navigator>
+</view>
+<!--设置-->
+<view class='divider'></view>
+<view class='cell'>
+  <navigator class='cell-item arrow'>
+    <text>设置</text>
+  </navigator>
+</view>

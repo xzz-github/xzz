@@ -1,0 +1,101 @@
+<!--logs.wxml-->
+<!--图片轮播-->
+<view class='slider'>
+  <swiper autoplay interval='3000' indicator-dots='{{true}}'>
+    <swiper-item wx:for="{{images}}" wx:key="{{index}}">
+      <image src='{{item}}' mode='aspectFill' lazy-load width='100%' height='150'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!--搜索-->
+<view class='search'>
+  <navigator url='/pages/search/search'>
+            <view class="search-text">
+                <icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
+                搜 索
+            </view>
+        </navigator>
+</view>
+<!--精选主题内容-->
+<view class='selected'>
+  <view class="select-title"><text>精选主题</text></view>
+  <view class="select-top">
+        <view class="select-top-small">
+            <navigator url="/pages/detail/detail">
+              <image src="../../image/s1.png"></image>
+            </navigator>
+        </view>
+        <view class="select-top-small">
+            <navigator url="/pages/detail/detail">
+              <image src="../../image/s2.png"></image>
+            </navigator>
+        </view>
+  </view>
+  <view class='select-bottom'>
+    <navigator url="/pages/detail/detail">
+        <image src="../../image/s3.png"></image>
+    </navigator>
+  </view>
+</view>
+<!--最近新品推荐-->
+<view class='newest'>
+  <view class='newest-title'><text>最近新品</text></view>
+  <view class='newest-box'>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/s1.png"></image>
+              <view class="newest-text"><text>大芒果 1斤</text></view>
+          <view class="newest-text"><text>￥ 18.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/s2.png"></image>
+              <view class="newest-text"><text>莲子果 500g</text></view>
+          <view class="newest-text"><text>￥ 58.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/s4.png"></image>
+              <view class="newest-text"><text>红瓜子 100g</text></view>
+          <view class="newest-text"><text>￥ 8.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/s5.png"></image>
+              <view class="newest-text"><text>芹菜叶 500g</text></view>
+          <view class="newest-text"><text>￥ 1.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/s6.png"></image>
+              <view class="newest-text"><text>白白米 500g</text></view>
+          <view class="newest-text"><text>￥ 8.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/c2.png"></image>
+              <view class="newest-text"><text>人参果 3个</text></view>
+          <view class="newest-text"><text>￥ 0.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/c3.png"></image>
+              <view class="newest-text"><text>大红枣 300g</text></view>
+          <view class="newest-text"><text>￥ 5.88</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+              <image src="../../image/c4.png"></image>
+              <view class="newest-text"><text>奇异果 600g</text></view>
+          <view class="newest-text"><text>￥ 28.88</text></view>
+        </navigator>
+    </view>
+  </view>
+</view>

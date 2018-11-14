@@ -1,0 +1,18 @@
+<!--pages/address/address.wxml-->
+<view class='divider'></view>
+<view class='cell'>
+  <form bindsubmit='submitHandle'>
+    <view class='cell-item'>
+      <input type='text' name="uname" placeholder='请输入用户名'></input>
+    </view>
+    <view class='cell-item'>
+      <input type='text' name="tel" placeholder='请输入电话号码'></input>
+    </view>
+    <view class='cell-item'>
+      <input type='text' name="adr" placeholder='请输入详细地址'></input>
+    </view>
+    <view>
+      <button formType="submit">保存</button>
+    </view>
+  </form>
+</view>

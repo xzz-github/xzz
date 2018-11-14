@@ -1,0 +1,9 @@
+<!--pages/recommend/recommend.wxml-->
+<!--推荐信息列表-->
+<view class='card' wx:for="{{infoList}}" wx:key="{{index}}">
+  <text class='card-title'>{{item.title}}</text>
+  <text class='card-date'>{{item.date}}</text>
+  <image class='card-image' src="{{item.img_url}}" mode='aspectFill' lazy-load></image>
+  <text class='card-desc'>{{item.des}}</text>
+  <text class='card-read arrow'>查看详细</text>
+</view>

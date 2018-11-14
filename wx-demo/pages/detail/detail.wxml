@@ -1,0 +1,37 @@
+<!--pages/detail/detail.wxml-->
+<view class="main">
+    <view class="banner">
+        <image src="/image/list1.png"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s4.png"></image>
+                <view class="newest-text"><text>红瓜子 100g</text></view>
+                <view class="newest-text"><text>￥ 11.11</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s5.png"></image>
+                <view class="newest-text"><text>水芹菜 半斤</text></view>
+                <view class="newest-text"><text>￥ 2.22</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s6.png"></image>
+                <view class="newest-text"><text>东北大米 300g</text></view>
+                <view class="newest-text"><text>￥ 3.33</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s4.png"></image>
+                <view class="newest-text"><text>新疆红米 500g</text></view>
+                <view class="newest-text"><text>￥ 4.44</text></view>
+            </navigator>
+        </view>
+    </view>
+</view>

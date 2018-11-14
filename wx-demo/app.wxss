@@ -1,0 +1,15 @@
+/**app.wxss**/
+
+.arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow::after{
+  content: "";
+  width: 15rpx;
+  height: 15rpx;
+  border-top: 3rpx solid #666;
+  border-right: 3rpx solid #666;
+  transform: rotate(45deg);
+}
